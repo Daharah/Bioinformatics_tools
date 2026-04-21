@@ -20,8 +20,6 @@ RNA_comp_nuc = {
     'U': 'A'
     }
 
-ATATAGTACTAG
-
 DNA_Codons = {
     # 'M' - START, '_' - STOP
     "GCT": "A", "GCC": "A", "GCA": "A", "GCG": "A",
