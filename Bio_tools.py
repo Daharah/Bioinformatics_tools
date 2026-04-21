@@ -69,7 +69,7 @@ def tlate_mrna(rna_seq):
 
 # def conv_long2short_amino(dna_seq6):
 
-########## Calculations (calc_) ##########
+########## Calculations ##########
 
 def calc_count_nucleotides(dna_rna_seq):
     """Counts the individual number of each nucleotide in a DNA/RNA sequence, and sequence length."""
