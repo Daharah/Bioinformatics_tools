@@ -87,6 +87,7 @@ def calc_count_nucleotides(dna_rna_seq):
     return nuc_freq_dict
 
 def calc_melting_temp(dna_seq1):
+    """Calculates the melting temperature of a DNA strand."""
     AT_count = dna_seq1.count('A') + dna_seq1.count('T')
     CG_count = dna_seq1.count('C') + dna_seq1.count('G')
 #    total_count = int(AT_count + CG_count)
